@@ -3,7 +3,6 @@ export PROJECT_NUMBER="720003034727"
 export DEV_BUCKET="DEV_BUCKET"
 export PROD_BUCKET="PROD_BUCKET"
 
-
 gcloud storage buckets create gs://$DEV_BUCKET --project=$PROJECT_ID --default-storage-class=STANDARD --location=EUROPE-WEST1 --uniform-bucket-level-access
 
 gcloud storage buckets create gs://$PROD_BUCKET --project=$PROJECT_ID --default-storage-class=STANDARD --location=EUROPE-WEST1 --uniform-bucket-level-access
